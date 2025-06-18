@@ -1,0 +1,92 @@
+@media  (min-width:1025px) {
+    .about{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        height: 409px;
+       
+    }
+    .about__menu{
+        background-image: url(../img/aboutm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+    }
+    .about__img{
+        position: relative;
+        left: 122px;
+
+    }
+    .hard__menu{
+        display: flex;
+        flex-direction: column; 
+        width: 50%;
+    }
+    .gallery{
+        width: 100%;
+        background-image: url(../img/Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1024px;
+    }
+    
+    .gallery__title{
+        position: relative;
+        top: 314px;
+    }
+    .hard{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hard__box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .list__img{
+        display: none;
+    }
+    #burger{
+        display: none;
+    }
+    .burger-icon{
+        display: none;
+    }
+    .gallery__photo{
+        max-width: 400px;
+        border-radius: 3%;
+    }
+    .gallery__box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 407px;
+    }
+    
+
+    .soft{
+    background-image: url(../img/venera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+    }
+    .gallery__photo:first-child{
+        max-width: 330px;
+    }
+    .gallery__photo:last-child{
+        max-width: 330px;
+    }
+    .info__img{
+        width: 44%;
+        height: 200px;
+    }
+    .biography__img{
+        width: 44%;
+        height: 200px;
+    }
+}

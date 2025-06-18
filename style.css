@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+}
+.header{
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+}
+.menu__title{
+    font-weight: 400;
+    max-width: 600px;
+    height: 154px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+span{
+    font-weight: bold;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: #0F103F;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+.item__link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.list__photo{
+    max-width: 100px;
+}
+.hero__menu{
+    padding: 50px;
+    position: absolute;
+    left: 271px;
+    top: 319px; 
+}
+.container__button{
+    min-width: 200px;
+    height: 50px;
+    background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+    box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.container__button--mod{
+    min-width:  200px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(11.5757px);
+    border-radius: 30px;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-size: 17px;
+}
+.about{
+    height: 285px;
+}
+.about__img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.about__box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about__text{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.about__title{
+    margin: 0 auto;
+    font-size: 48px;
+}
+.gallery__title{
+    font-size: 38px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+.info__span{
+    font-size: 14px;
+    color: #9857D3;  
+}
+.info__title{
+    font-size: 24px;
+}
+.info__box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+.info__text{
+    width: 90%;
+    height: 140px;
+    font-size: 16px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) ;
+}
+.info__photo{
+    width: 30px;
+    height: 30px;
+}
+.biography{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.biography__span{
+    font-size: 14px;
+    color: #9857D3;  
+}
+.biography__title{
+    font-size: 24px;
+}
+.biography__box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.biography__text{
+    width: 90%;
+    padding: 20px;
+    height: 140px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) ;
+}
+.biography__photo{
+    max-width: 30px;
+    height: 30px;
+}
+label{
+    margin: 10px;
+}
+#text{
+    width: 60%;
+}
+.hard{
+    padding: 90px;
+}
+.hard__title{
+    font-size: 38px;
+    text-align: center;
+}
+.hard__menu{
+    margin: 0 auto;
+}
+.hard__container{
+    display: flex;
+    max-width: 480px;
+    justify-content:space-between ;
+    margin: 5px;
+}
+.soft__title{
+    font-size: 38px;
+    text-align: center;
+}
+.soft__box{
+    width: 73%;
+    height: 600px;
+    background: rgba(47, 47, 138, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+}
+.menu__title--text{
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+}
+.soft__text{
+    width: 50%;
+    line-height: 20px;
+}
+
+.soft__link{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.soft__container{
+    display: flex;
+    align-items: center;
+}
+.soft__input{
+    padding: 10px 10px 10px 20px;
+    color: #FFFFFF;
+    min-width: 340px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+}
+.soft__menu{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 20px;
+    height: 400px;
+    justify-content: space-between;
+}
+.soft__button{
+    width: 30%;
+    height: 40px;
+    background: linear-gradient(105.95deg, #C961DE 24.79%, #2954A3 71.87%);
+    box-shadow: 0px 10px 20px rgba(7, 7, 26, 0.15);
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+}
+.soft__div{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.soft__input--mod{
+    height: 150px;
+}
+.soft__form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__photo{
+    height: 44px;
+    width: 44px;
+}
+.footer__photo--planet{
+    width: 400px;
+    height: 400px;
+}
+.footer__nav{
+    display: flex;
+}
+.footer__link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer__item{
+    display: flex;
+    align-items: center;
+}
+.footer__box{
+    display: flex;
+    justify-content: center;
+}
+.footer__img{
+    width: 50px;
+}
+.footer{
+    padding: 40px;
+    background: #1C1C65;
+
+}
+.footer__text{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.footer__line{
+    width: 95%;
+}
+.hard__line{
+    width: 480px;
+    height: 10px;
+    background: #222222;
+    border-radius: 50px;
+}
+.hard__range{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    top: 10px;
+    background: #BC8CF2;
+    border-radius: 50px;
+}
+.hard__range--html{
+    width: 45%;
+}
+.hard__range--css{
+    width: 40%;
+}
+.hard__range--figma{
+    width: 30%;
+}
+.hard__range--java{
+    width: 2%;
+}
+.info__img, .biography__img{
+    border-radius: 4%;
+}
+.biography__link{
+    text-decoration: none;
+    color: #0F103F;
+}
